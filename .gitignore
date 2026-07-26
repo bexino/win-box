@@ -1,0 +1,50 @@
+# ==========================================
+# 脚本工具箱 Python & PyInstaller 构建产物
+# ==========================================
+build/
+dist/
+*.spec
+*.exe
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Node.js & Typora 优化工具产物
+# ==========================================
+node_modules/
+Typora_crack/node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Typora Hook 运行时生成的日志及临时备份
+Typora_Hook_Log.txt
+*.log
+*.bak
+*.asar
+*.asar.bak
+
+# ==========================================
+# IDE & 编辑器配置与系统临时文件
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# AI Agent 及系统生成的日志/缓存目录
+.gemini/
+.system_generated/
